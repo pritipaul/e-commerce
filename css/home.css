@@ -1,0 +1,93 @@
+.dress ul{
+    display: flex;
+    text-decoration: none;
+}
+.dress ul li{
+    display: flex;
+    text-decoration: none;
+}
+.dress ul li a{
+    display: flex;
+    text-decoration: none;
+    margin: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.dress ul li a:hover{
+    color: blueviolet;
+}
+.dress ul h3{
+    display: flex;
+    border: 2px solid red;
+    background-color: red;
+    padding: 2px;
+    margin-top: 0px;
+    font-size: 15px;
+   height: 30px;
+}
+#search{
+   height: 30px;
+}
+#about{
+    margin-top: -20px;
+}
+.h{
+    font-family:cursive;
+    font-size: 40px;
+    color: rgb(217, 219, 68);
+    margin-top: 25px;
+   
+}
+.ho{
+    margin: 20px;
+}
+
+#heading{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top:-8px ;
+    margin-left:-6px ;
+    margin-right: 0px;
+}
+heading{
+    position: static;
+    top: 1px;
+   
+}
+#heading::before{
+   content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.9;
+}
+#all{
+    margin: 20px;
+    
+}
+
+.cata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    font-size: 50px;
+}
+.section{
+    display: flex;
+
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
+.off{
+    margin: 200px;
+}
+
